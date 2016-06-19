@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+-->
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="bg_text_disable">#d50000</color>
+    <color name="bg_text_enable">#bdbdbd</color>
+    <color name="color_orange">#ffa500</color>
+
+    <color name="table_back">#EBEBEB</color>
+    <color name="textColorPrimary">#989898</color>
+    <color name="textColorSecondary">#4C5155</color>
+</resources>

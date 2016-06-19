@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/table_back"
+    tools:context="com.pos.theikchan.restaurantpos.ActivityTableList">
+<include layout="@layout/toolbar"
+    android:id="@+id/toolbar_table"/>
+
+    <GridView
+        android:id="@+id/gridTableList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="230dp"
+        android:horizontalSpacing="8dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="8dp"
+        android:background="@color/table_back"/>
+
+</LinearLayout>
